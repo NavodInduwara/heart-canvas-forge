@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				memorial: {
+					'soft-rose': 'hsl(var(--soft-rose))',
+					'warm-amber': 'hsl(var(--warm-amber))',
+					'gentle-lavender': 'hsl(var(--gentle-lavender))',
+					'peaceful-blue': 'hsl(var(--peaceful-blue))',
+					'starlight-dark': 'hsl(var(--starlight-dark))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +74,20 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-candleglow': 'var(--gradient-candleglow)',
+				'gradient-softsky': 'var(--gradient-softsky)',
+				'gradient-lavender': 'var(--gradient-lavender)',
+				'gradient-starlight': 'var(--gradient-starlight)'
+			},
+			fontFamily: {
+				'display': ['Inter', 'system-ui', 'sans-serif'],
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'warm': 'var(--shadow-warm)',
+				'elegant': 'var(--shadow-elegant)'
 			},
 			keyframes: {
 				'accordion-down': {
